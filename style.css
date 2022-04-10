@@ -1,0 +1,61 @@
+/* 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Seccion Header %%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.header{
+    Width: 1440px;
+    Height: 115px;
+    align-items: center;
+    display: flex;
+    background-color: #e9dede;
+}
+.logo{
+    position: absolute;
+    left:9.97% ;
+    right: 9.97%;
+    top: 5.83%;
+    bottom: 5.83%;
+}
+.buscar{
+    
+    padding: 8px 16px;
+    position: static;
+    width: 393px;
+    height: 40px;
+    left: calc(50% - 393px/2 + 104px);
+    top: 5px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 470px;
+}
+.boton-login{
+    position: absolute;
+    /*left:80% ;*/
+    right:10%;
+    background-color: #0074D9;
+    color: #f2f2f2;
+    padding: 20px 30px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+/* 
+%%%%%%%%%%%%%%%%%%%%%%% Seccion footer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+.contenido_footer{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    color:#000000;
+    
+}
+
+.contenido_footer p{
+    display: block;
+    padding: 5px 0;
+    
+}
